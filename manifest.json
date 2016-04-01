@@ -1,0 +1,37 @@
+
+
+
+
+{
+  "name": "Lets Chat",
+  "description": "One stop solution for all social networking chats",
+  "version": "0.0.1",
+  "short_name": "Lets Chat",
+  "offline_enabled": false,
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+	"cookies",
+	"https://twitter.com/*",
+	"https://www.linkedin.com/*",
+	"https://web.wechat.com/*",
+	"https://web.telegram.org/*",
+	"https://web.skype.com/en/*",
+	"https://hangouts.google.com/*",
+	"https://web.whatsapp.com/*",
+	"https://www.messenger.com/*",
+    "notifications",
+    "webview",
+    {"fileSystem": ["write"]},
+    "storage",
+    "unlimitedStorage",
+    "fullscreen"
+  ],
+"icons": { "16": "1234-16.png", "128": "1234.png" }
+    
+
+}
